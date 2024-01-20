@@ -2,9 +2,9 @@
 
 # data-onlinechecker
 
-A Web Component for HTML date-/time- format
+a Web Component to check on-/offline
 
-defined output of timezone, format and datetime
+shows online (green circle) or offline (red circle)
 
 </div>
 
