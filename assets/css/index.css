@@ -242,11 +242,12 @@ samp {
   font-family: Menlo, Consolas, monospace;
   font-size: 0.85em;
 }
-code {
+.code {
   background: oklch(0% 0 0);
   color: oklch(92.19% 0.114 196.04);
   border-radius: var(--universal-border-radius);
   padding: calc(var(--universal-padding) / 4) calc(var(--universal-padding) / 2);
+  width: fit-content;
 }
 kbd {
   background: var(--fore-color);
