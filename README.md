@@ -1,6 +1,6 @@
 <div id="top" align="center">
 
-# data-onlinechecker
+# rz-onlinecheck
 
 a Web Component to check on-/offline
 
@@ -25,8 +25,16 @@ v0.1.0
 #### Parameters
 
 ```
-    <data-onlinechecker></data-onlinechecker>
+    <rz-onlinecheck></rz-onlinecheck>
 ```
+
+```
+    <rz-onlinecheck with_text="no"></rz-onlinecheck>
+```
+
+| Parameter   | Type     | Description                                                 |
+| :---------- | :------- | :---------------------------------------------------------- | --------- |
+| `with_text` | `string` | **Optional**. "yes" "no" default: "yes" : w/o text "Online" | "Offline" |
 
 ## Installation
 
@@ -38,7 +46,7 @@ used folder structure
 │   ├── css
 │   │   └── index.css
 │   └── js
-│       └── dataOnline.js
+│       └── rz-online.js
 ├── favicon.ico
 ├── index.html
 
@@ -57,8 +65,11 @@ used folder structure
 
     <title>Web Component</title>
 
-    <meta name="description" content="Web Component to check on-/offline" />
-    <meta name="version" content="v0.1.0" />
+    <meta
+      name="description"
+      content="Web Component to check on-/offline mode"
+    />
+    <meta name="version" content="v0.1.1" />
     <meta name="author" content="ZHENG Robert" />
     <meta name="date" content="2021-03-17T01:30:00+01:00" />
 
@@ -78,25 +89,41 @@ used folder structure
           <h3>default</h3>
           <br />
           <p>
-            <data-onlinechecker></data-onlinechecker>
+            <rz-onlinecheck></rz-onlinecheck>
           </p>
           <p>
             <br />
-            <code>
-              &lsaquo;data-onlinechecker&rsaquo;&lsaquo;/data-onlinechecker&rsaquo;
-            </code>
+            <pre class="code">‹rz-onlinecheck›‹/rz-onlinecheck›</pre>
+            <pre class="code">‹rz-onlinecheck with_text="yes"›‹/rz-onlinecheck›</pre>
+          </p>
+        </section>
+        <section>
+          <h3>no text</h3>
+          <br />
+          <p>
+            <rz-onlinecheck with_text="no"></rz-onlinecheck>
+          </p>
+          <p>
+            <br />
+            <pre class="code">‹rz-onlinecheck with_text="no"›‹/rz-onlinecheck›</pre>
           </p>
         </section>
       </article>
     </main>
-    <script src="./assets/js/dataOnline.js"></script>
+    <script src="./assets/js/rz-onlinecheck.js"></script>
   </body>
 </html>
 ```
 
 ## Screenshots
 
-  <img src="https://raw.githubusercontent.com/Zheng-Bote/data-onlinechecker/main/assets/img/Screenshot.png" width="100%" height="auto" />
+**online**
+
+  <img src="https://raw.githubusercontent.com/Zheng-Bote/data-onlinechecker/main/assets/img/Screenshot_online.png" width="100%" height="auto" />
+
+**offline**
+
+  <img src="https://raw.githubusercontent.com/Zheng-Bote/data-onlinechecker/main/assets/img/Screenshot_offline.png" width="100%" height="auto" />
 
 ## Used By
 
