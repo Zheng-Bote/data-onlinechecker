@@ -32,9 +32,9 @@ v0.1.0
     <rz-onlinecheck with_text="no"></rz-onlinecheck>
 ```
 
-| Parameter   | Type     | Description                                                 |
-| :---------- | :------- | :---------------------------------------------------------- | --------- |
-| `with_text` | `string` | **Optional**. "yes" "no" default: "yes" : w/o text "Online" | "Offline" |
+| Parameter   | Type     | Description                                                  |
+| :---------- | :------- | :----------------------------------------------------------- |
+| `with_text` | `string` | **Optional**. "yes" "no" default: "yes" ("Online" "Offline") |
 
 ## Installation
 
